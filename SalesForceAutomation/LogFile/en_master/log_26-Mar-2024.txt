@@ -1,0 +1,21 @@
+26-Mar-2024 11:15:38-Exception from en page load:Session[UserID] is null 
+26-Mar-2024 11:15:38-Exception from en page load: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at SalesForceAutomation.BO_Digits.en.en_master.Page_Load(Object sender, EventArgs e) in C:\Sruthi\Turbosoft Projects\SalesForceAutomation\BO_Digits\en\en_master.Master.cs:line 38
+26-Mar-2024 12:37:04-Exception from en page load:Session[UserID] is null 
+26-Mar-2024 12:37:04-Exception from en page load: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at SalesForceAutomation.BO_Digits.en.en_master.Page_Load(Object sender, EventArgs e) in C:\Sruthi\Turbosoft Projects\SalesForceAutomation\BO_Digits\en\en_master.Master.cs:line 38
+26-Mar-2024 15:19:13-Exception from en page load:Session[UserID] is null 
+26-Mar-2024 15:19:13-Exception from en page load: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at SalesForceAutomation.BO_Digits.en.en_master.Page_Load(Object sender, EventArgs e) in C:\Sruthi\Turbosoft Projects\SalesForceAutomation\BO_Digits\en\en_master.Master.cs:line 38
