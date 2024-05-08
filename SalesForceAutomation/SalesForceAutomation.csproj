@@ -21418,6 +21418,7 @@
     <Content Include="BO_Digits\assets\plugins\global\fonts\line-awesome\la-solid-900.woff2" />
     <Content Include="BO_Digits\assets\plugins\global\sourcemaps\tiny-slider.css.map" />
     <Content Include="BO_Digits\en\en_master.Master" />
+    <Content Include=".vs\SalesForceAutomation.csproj.dtbcache.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
