@@ -26,7 +26,6 @@ namespace SalesForceAutomation.BO_Digits.en
             {
 
                 rdfromDate.SelectedDate = DateTime.Now;
-
                 rdfromDate.MaxDate = DateTime.Now;
 
                 try
@@ -34,13 +33,11 @@ namespace SalesForceAutomation.BO_Digits.en
                   
                     if (Session["SSFDate"] != null)
                     {
-
                         rdfromDate.SelectedDate = DateTime.Parse(Session["SSFDate"].ToString());
                     }
                     else
                     {
                         rdfromDate.SelectedDate = DateTime.Parse(DateTime.Now.ToString("MMM-yyyy"));
-
 
                     }
                     rdfromDate.MaxDate = DateTime.Now;
